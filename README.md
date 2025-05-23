@@ -57,11 +57,11 @@ The model achieved strong performance on phishing detection:
 | AUC-ROC    | 0.9023 | Visualized in final plot |
 
 # Visualizations
-Training Loss and Accuracy Over Epochs (Causal GraphSAGE): Visualizes the convergence of the model during causal training, showing decreasing loss and increasing accuracy over epochs. *
-Confusion Matrix: Provides a detailed breakdown of true positives, true negatives, false positives, and false negatives from the final evaluation, illustrating the model's classification accuracy for each class. *
-ROC Curve: Illustrates the model's trade-off between True Positive Rate and False Positive Rate across various classification thresholds, with the AUC-ROC score quantifying overall performance. *
-Training Loss - Phishing Noise Training: Depicts the loss reduction during the training phase where noise was intentionally injected, demonstrating the model's ability to learn effectively despite data imperfections. *
-Overall Training Loss/Accuracy: Shows the general learning progression of the model, likely from an initial training phase, with loss decreasing and accuracy increasing. *
+* Training Loss and Accuracy Over Epochs (Causal GraphSAGE): Visualizes the convergence of the model during causal training, showing decreasing loss and increasing accuracy over epochs. 
+* Confusion Matrix: Provides a detailed breakdown of true positives, true negatives, false positives, and false negatives from the final evaluation, illustrating the model's classification accuracy for each class. 
+* ROC Curve: Illustrates the model's trade-off between True Positive Rate and False Positive Rate across various classification thresholds, with the AUC-ROC score quantifying overall performance. *
+* Training Loss - Phishing Noise Training: Depicts the loss reduction during the training phase where noise was intentionally injected, demonstrating the model's ability to learn effectively despite data imperfections. *
+* Overall Training Loss/Accuracy: Shows the general learning progression of the model, likely from an initial training phase, with loss decreasing and accuracy increasing. *
 
 # Dependencies
 The project relies on the following key libraries:
