@@ -82,7 +82,7 @@ pip install -r requirements.txt
 # (Or manually install: torch, torch-geometric, scikit-learn, pandas, numpy, matplotlib)
 # Ensure torch-geometric, torch-scatter, and torch-sparse versions are compatible with your PyTorch version.
 ```
-``bash 
+```bash 
 python phish.py
 ```
 ## 🔍 Use Case
