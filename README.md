@@ -1,4 +1,4 @@
-# Phishing Detection Using Graph Neural Networks (GNNs)
+# Phishing Detection Using Graph Sage using Casual Sampling (GNNs)
 
 This repository presents a complete workflow for phishing detection leveraging **GraphSAGE**, a type of Graph Neural Network (GNN), with temporal modeling, causal sampling, and robustness testing.
 
