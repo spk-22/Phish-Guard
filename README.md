@@ -58,10 +58,11 @@ The model achieved strong performance on phishing detection:
 
 # Visualizations
 * Training Loss and Accuracy Over Epochs (Causal GraphSAGE): Visualizes the convergence of the model during causal training, showing decreasing loss and increasing accuracy over epochs. 
-* Confusion Matrix: Provides a detailed breakdown of true positives, true negatives, false positives, and false negatives from the final evaluation, illustrating the model's classification accuracy for each class. 
-* ROC Curve: Illustrates the model's trade-off between True Positive Rate and False Positive Rate across various classification thresholds, with the AUC-ROC score quantifying overall performance. *
-* Training Loss - Phishing Noise Training: Depicts the loss reduction during the training phase where noise was intentionally injected, demonstrating the model's ability to learn effectively despite data imperfections. *
-* Overall Training Loss/Accuracy: Shows the general learning progression of the model, likely from an initial training phase, with loss decreasing and accuracy increasing. *
+* Confusion Matrix: Provides a detailed breakdown of true positives, true negatives, false positives, and false negatives from the final evaluation, illustrating the model's classification accuracy for each class.
+* ROC Curve: Illustrates the model's trade-off between True Positive Rate and False Positive Rate across various classification thresholds, with the AUC-ROC score quantifying overall performance. 
+* Training Loss - Phishing Noise Training: Depicts the loss reduction during the training phase where noise was intentionally injected, demonstrating the model's ability to learn effectively despite data imperfections. 
+* Overall Training Loss/Accuracy: Shows the general learning progression of the model, likely from an initial training phase, with loss decreasing and accuracy increasing.
+* Visual Interface: The dashboard helps to visualize the data fed to the global (fusion classifier) and attack - specific models for viewing class probabilities, graph plot visualization and accuracy metrics, confidence scores of both models and the probable reason behind the respective model's classification.
 
 # Dependencies
 The project relies on the following key libraries:
@@ -74,6 +75,8 @@ pandas
 numpy
 scikit-learn
 matplotlib
+gradio
+
 ```bash
 git clone https://github.com/spk-22/Phish-Guard
 ```
@@ -84,6 +87,9 @@ pip install -r requirements.txt
 ```
 ```bash 
 python phish.py
+```
+```bash
+streamlit run web_app.py
 ```
 ## 🔍 Use Case
 
